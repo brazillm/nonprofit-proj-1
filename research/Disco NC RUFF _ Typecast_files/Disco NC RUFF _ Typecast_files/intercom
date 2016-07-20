@@ -1,0 +1,31 @@
+
+
+var intercomSettings = {
+    app_id: 'sxd0sajv',
+    user_id: '211814',
+    email: 'brazillm@gmail.com',
+
+    name: 'user_1468332634_rLBf7xjc',
+
+    user_hash: 'deca57f42ba8644488827f44995a85df2601c73b148a4391bd862a43a66740e5',
+    widget: {
+        activator: '.Intercom',
+        activator_html: function ( obj ) {
+            return obj.activator_html_functions.brackets();
+        }
+    },
+
+    
+    
+    
+
+    created_at: 1468332634
+};
+(function() {
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = 'https://static.intercomcdn.com/intercom.v1.js';
+    var script = document.getElementsByTagName('script')[0];
+    script.parentNode.insertBefore(s, script);
+})();
